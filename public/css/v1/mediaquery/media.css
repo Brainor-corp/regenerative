@@ -1,0 +1,48 @@
+@media (max-width: 767px){
+    .mobile-none{
+        display: none;
+    }
+}
+
+@media (min-width: 518px) and (max-width: 575px){
+    .organisators_and_sponsors{
+        margin-left: 4rem!important;
+        margin-right: 4rem!important;
+    }
+}
+
+@media (max-width: 500px) {
+    .top-menu h1, h2{
+        font-size: 1.7rem;
+    }
+    .opac-btn-mobile h4{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .opac-btn-mobile h4{
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 420px){
+    .write_a_post_button{
+        margin-left: 1rem!important;
+    }
+}
+@media (min-width: 403px) and (max-width: 419px){
+    .write_a_post_button{
+        margin-right: 1rem!important;
+        margin-left: 1rem!important;
+    }
+}
+
+/*@media (max-width: 1360px) {*/
+    /*.bottom-nav .navbar{*/
+        /*margin-left: 0!important;*/
+    /*}*/
+    /*.bottom-nav .bottom-btns{*/
+        /*margin-left: 16px!important;*/
+    /*}*/
+/*}*/
