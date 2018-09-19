@@ -1,0 +1,311 @@
+body{
+    font-family: "Century Gothic";
+}
+.top-menu {
+    background-image: url("../../../img/neuron.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.black-filter {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6)
+}
+
+.top-menu h1, h2 {
+    text-align: center;
+    color: #fff
+}
+.top-menu h4 {
+    margin: 0!important;
+}
+
+.text-yellow {
+    color: #f2ba43!important;
+}
+
+.text-yellow a{
+    color: #f2ba43!important;
+}
+
+.top-menu-btns{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.top-menu .opac-btn{
+    border: 2px solid #f2ba43;
+    background: none;
+    color: #fff;
+    text-align: center;
+    width: 400px;
+    height: auto;
+}
+
+.navbar-toggler{
+    background-color: #fff;
+}
+
+.top-menu.navbar{
+    margin-bottom: 130px;
+}
+
+.subheader{
+    font-size: 1.5rem;
+    margin: 60px 0 60px 0;
+}
+
+.subheader .first-part{
+    color: #000;
+}
+
+.subheader .second-part{
+    color: #0291ff;
+}
+.second-part{
+    color: #0291ff;
+}
+
+.subheader .first-part-white{
+    color: #fff;
+}
+
+.about-menu ul li{
+    margin: 10px 0 5px 0;
+}
+
+.about-menu .for-who{
+    padding-left: 25px;
+}
+
+.li-sqr{
+    list-style-image: url("../../../img/sqr.png");
+}
+
+.img-holder{
+    margin-top: 50px;
+}
+
+.img-holder img{
+    margin-bottom: 5px;
+}
+
+.speakers-menu {
+    background-image: url("../../../img/neuron2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.speakers-menu .description{
+    color: #fff;
+    margin-bottom: 70px;
+    margin-top: 40px;
+}
+
+.speakers-menu .black-filter {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6)
+}
+
+.gradient-line{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(left, #1e5799 22%, #207cca 71%, #207cca 99%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #1e5799 22%,#207cca 71%,#207cca 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #1e5799 22%,#207cca 71%,#207cca 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#207cca',GradientType=1 ); /* IE6-9 */
+}
+
+.cost-card .cost-card-header{
+    background-color: #013045;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.cost-card-header h1{
+    color: #0291ff;
+    font-size: 1.8rem;
+}
+
+.cost-card{
+    /*width: 350px;*/
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-bottom: 80px;
+}
+
+.cost-card-body{
+    padding: 30px;
+}
+
+.cost-card-body span{
+    margin: 10px;
+}
+
+.buy-btn:hover,
+.big-buy-btn:hover,
+.opac-btn:hover,
+.btn:hover {
+    cursor: pointer;
+}
+
+.buy-btn{
+    outline: none!important;
+    box-shadow:none !important;
+    border:1px solid #ccc !important;
+    margin-top: 20px;
+    color: #fff;
+    width: 170px;
+    background: #7db9e8; /* Old browsers */
+    background: -moz-linear-gradient(left, #7db9e8 2%, #7db9e8 2%, #7db9e8 8%, #2989d8 23%, #207cca 44%, #1e5799 95%, #1e5799 95%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #7db9e8 2%,#7db9e8 2%,#7db9e8 8%,#2989d8 23%,#207cca 44%,#1e5799 95%,#1e5799 95%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #7db9e8 2%,#7db9e8 2%,#7db9e8 8%,#2989d8 23%,#207cca 44%,#1e5799 95%,#1e5799 95%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=1 ); /* IE6-9 */
+}
+
+.registration-menu{
+    background-image: url("../../../img/neuron.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.account-wall{
+    margin: 20px 0 20px 0;
+}
+
+.reg-form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.reg-btn{
+    background-color: #f2ba43;
+    color: #FFF;
+}
+
+.add-banner{
+    width: 100%;
+    background-color: #000;
+}
+
+.big-buy-btn{
+    outline: none!important;
+    box-shadow:none !important;
+    border:1px solid #ccc !important;
+    margin-top: 20px;
+    color: #fff;
+    width: 200px;
+    padding: 5px;
+    background: #7db9e8; /* Old browsers */
+    background: -moz-linear-gradient(left, #7db9e8 2%, #7db9e8 2%, #7db9e8 8%, #2989d8 23%, #207cca 44%, #1e5799 95%, #1e5799 95%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #7db9e8 2%,#7db9e8 2%,#7db9e8 8%,#2989d8 23%,#207cca 44%,#1e5799 95%,#1e5799 95%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #7db9e8 2%,#7db9e8 2%,#7db9e8 8%,#2989d8 23%,#207cca 44%,#1e5799 95%,#1e5799 95%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=1 ); /* IE6-9 */
+}
+
+.bottom-nav{
+    background-image: url("../../../img/apple.jpg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.opac-btn{
+    outline: none!important;
+    box-shadow:none !important;
+}
+
+.opac-btn:hover{
+    box-shadow: 0 0 20px rgba(242,186,67,0.5)!important;
+}
+
+.reg-btn:hover{
+    box-shadow: 0 0 40px rgba(100,186,67,1)!important;
+}
+.big-buy-btn:hover, .buy-btn:hover{
+    box-shadow: 0 0 40px rgb(41, 137, 216) !important;
+}
+
+.bottom-nav .opac-btn{
+    border: 2px solid #f2ba43;
+    background: none;
+    color: #fff;
+    text-align: center;
+    width: auto;
+    height:auto;
+}
+
+.bottom-nav .nav-item a{
+    font-size: 0.9rem;
+}
+
+.bottom-nav .nav-item a:hover{
+    color: #f2ba43;
+    outline: #f2ba43!important;
+    text-decoration: underline!important;
+}
+
+
+.nav-links{
+    color: #fff;
+    text-decoration: none!important;
+    outline: none!important;
+}
+
+.conf-img{
+    width: 250px;
+    height: 190px;
+}
+
+.small-img{
+    width: 90px;
+    height: 90px;
+}
+
+.hotel-img{
+    width: 300px;
+    height: 200px;
+}
+
+.lizard-img{
+    width: 50px;
+    height: 50px;
+    /*border: 1px solid #f2ba43;*/
+}
+
+#map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+}
+
+.fb-link{
+    color: #fff;
+    outline: 0!important;
+    text-decoration: none!important;
+}
+
+.fb-link:hover{
+    color:#adb5bd;
+}
+.section-animation{
+    width: 100%;
+    overflow: hidden;
+}
+.blue-border-for-mail{
+    border-left: 20px solid #0291ff;
+    padding-left: 15px;
+}
